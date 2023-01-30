@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int x,i=0,result1=0,flag=0;
+	float result2=0.0;
+	scanf("%d",&x);
+	for(i=x-1;i>1;i--)
+	{
+		result1=x/i;
+		result2=((float)x/i);
+		printf("result 1: %d \n result2: %f\n",result1,result2);
+		if(result1==result2)
+			flag=1;
+	}
+	if(flag==1)
+		printf("prime");
+	else
+		printf("kosmk");
+	return EXIT_SUCCESS;
+}

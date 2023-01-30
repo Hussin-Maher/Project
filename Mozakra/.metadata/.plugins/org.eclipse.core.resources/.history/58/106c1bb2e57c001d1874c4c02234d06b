@@ -1,0 +1,42 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int size=10;
+void sorting(int *arr, int size)
+{
+	int i,j,temp=0;
+	for(i=0;i<size-1;i++)
+	{
+		for(j=0;j<size-1;j++)
+		{
+			if(arr[j]>arr[j+1])
+			{
+				temp=arr[j];
+				arr[j]=arr[j+1];
+				arr[j+1]=temp;
+			}
+		}
+	}
+}
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int i=0;
+	int arr[10]={10,8,4,3,7,5,1,2,6,9};
+	sorting(arr, size);
+	for(i=0;i<size;i++)
+	{
+		printf("%d ",arr[i]);
+	}
+	return 0;
+}
+

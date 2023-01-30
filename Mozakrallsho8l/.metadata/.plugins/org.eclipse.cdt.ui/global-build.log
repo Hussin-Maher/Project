@@ -1,0 +1,1393 @@
+20:09:45 **** Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:3: error: expected identifier or '(' before 'volatile'
+../main.c:3: error: expected ')' before '(' token
+../main.c:4: error: expected identifier or '(' before 'volatile'
+../main.c:4: error: expected ')' before '(' token
+../main.c:5: error: expected identifier or '(' before 'volatile'
+../main.c:5: error: expected ')' before '(' token
+../main.c:7: warning: return type defaults to 'int'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:10:35 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     212 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:11:05 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:5: warning: return type defaults to 'int'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     196 bytes (1.2% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:11:25 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     196 bytes (1.2% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:12:13 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     212 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:52:16 **** Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     212 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:55:41 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     212 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:56:40 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     206 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:57:09 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     208 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:58:47 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     208 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:06:55 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     208 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:09:04 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:8: warning: unused variable 'count'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     170 bytes (1.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:11:51 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:8: warning: unused variable 'count'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     170 bytes (1.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:11:59 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:8: warning: unused variable 'count'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     170 bytes (1.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:59:15 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:4: warning: 'INT0_vet' appears to be a misspelled signal handler
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     196 bytes (1.2% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:59:44 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     196 bytes (1.2% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:04:57 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     238 bytes (1.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:48:54 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     278 bytes (1.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:55:59 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     278 bytes (1.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:57:44 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     278 bytes (1.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:58:51 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     278 bytes (1.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:04:06 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     278 bytes (1.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:46:21 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:36:2: warning: #warning "This file has been moved to <util/delay.h>."
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:37,
+                 from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:9: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:9: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:9: undefined reference to `__delay'
+../main.c:7: undefined reference to `__delay'
+../main.c:13: undefined reference to `__delay'
+./main.o:../main.c:13: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:47:51 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:36:2: warning: #warning "This file has been moved to <util/delay.h>."
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:37,
+                 from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '__delay'
+../main.c: In function 'main':
+../main.c:22: warning: implicit declaration of function 'INIT1_init'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `__delay'
+../main.c:12: undefined reference to `__delay'
+../main.c:6: undefined reference to `INIT1_init'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:48:19 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:36:2: warning: #warning "This file has been moved to <util/delay.h>."
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:37,
+                 from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:6: warning: 'INIT1_vect' appears to be a misspelled signal handler
+../main.c: In function 'INIT1_vect':
+../main.c:10: warning: implicit declaration of function '__delay'
+../main.c: In function 'main':
+../main.c:22: warning: implicit declaration of function 'INIT1_init'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `INIT1_vect':
+../main.c:10: undefined reference to `__delay'
+../main.c:12: undefined reference to `__delay'
+../main.c:6: undefined reference to `INIT1_init'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:48:50 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:36:2: warning: #warning "This file has been moved to <util/delay.h>."
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:37,
+                 from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:6: warning: 'INIT1_vect' appears to be a misspelled signal handler
+../main.c: In function 'INIT1_vect':
+../main.c:10: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `INIT1_vect':
+../main.c:10: undefined reference to `__delay'
+../main.c:12: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:49:21 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:36:2: warning: #warning "This file has been moved to <util/delay.h>."
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:37,
+                 from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `__delay'
+../main.c:12: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:50:05 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:36:2: warning: #warning "This file has been moved to <util/delay.h>."
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:37,
+                 from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '_dlay'
+../main.c:12: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `_dlay'
+../main.c:12: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:50:10 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:36:2: warning: #warning "This file has been moved to <util/delay.h>."
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:37,
+                 from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '__dlay'
+../main.c:12: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `__dlay'
+../main.c:12: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:50:18 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:36:2: warning: #warning "This file has been moved to <util/delay.h>."
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/delay.h:37,
+                 from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '__dlay_ms'
+../main.c:12: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `__dlay_ms'
+../main.c:12: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:50:32 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '__dlay_ms'
+../main.c:12: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `__dlay_ms'
+../main.c:12: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:50:51 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '__dlay_ms'
+../main.c:12: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `__dlay_ms'
+../main.c:12: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:51:40 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '__dlay_ms'
+../main.c:12: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `__dlay_ms'
+../main.c:12: undefined reference to `__delay'
+../main.c:11: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+../main.c:14: undefined reference to `__delay'
+./main.o:../main.c:14: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:52:42 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:12: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:12: undefined reference to `__delay'
+../main.c:9: undefined reference to `__delay'
+./main.o: In function `__vector_2':
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:113: undefined reference to `__delay'
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:114: undefined reference to `__delay'
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:116: undefined reference to `__delay'
+./main.o:c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:119: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:52:55 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:28: warning: implicit declaration of function '__delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:9: undefined reference to `__delay'
+./main.o: In function `__vector_2':
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:113: undefined reference to `__delay'
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:114: undefined reference to `__delay'
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:116: undefined reference to `__delay'
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:119: undefined reference to `__delay'
+./main.o:c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:119: more undefined references to `__delay' follow
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:54:08 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6122 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:55:31 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_2':
+../main.c:10: warning: implicit declaration of function '_delay'
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+./main.o: In function `__vector_2':
+../main.c:10: undefined reference to `_delay'
+../main.c:12: undefined reference to `_delay'
+make: *** [hwaseen.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:56:28 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6122 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:41:23 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     312 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:43:55 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -c -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     306 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:04:04 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     326 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:04:55 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     330 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:09:18 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     330 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:17:53 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     330 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:19:47 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     416 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:20:13 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     416 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:20:46 **** Incremental Build of configuration Debug for project hwaseen ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: hwaseen.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,hwaseen.map -mmcu=atmega16 -o "hwaseen.elf"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: hwaseen.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S hwaseen.elf  >"hwaseen.lss"
+Finished building: hwaseen.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 hwaseen.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     416 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

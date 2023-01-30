@@ -1,0 +1,45 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+int size=9;
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int arr[]={1,2,2,3,3,3,3,4,4,4,4,3,3};
+	int temp[13]={0};
+	int i=0,j=0,count=0,max=0,re=0;;
+	for(i=0;i<13;i++)
+	{
+		for(j=0;j<13;j++)
+		{
+			if(arr[i]==arr[j])
+			{
+				count++;
+			}
+		}
+		temp[i]=count;
+		count=0;
+	}
+	max=temp[0];
+	for(i=13;i>0;i--)
+	{
+		if(temp[i]>max)
+		{
+			max=temp[i];
+			re=i;
+		}
+	}
+	printf("%d",arr[re]);
+	return 0;
+}
+

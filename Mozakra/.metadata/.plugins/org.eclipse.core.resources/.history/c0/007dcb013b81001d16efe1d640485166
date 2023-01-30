@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	char *ptr =(char*)malloc(10);
+	if (NULL!=ptr)
+	{
+		free(ptr);
+	}
+
+	return 0;
+}
+

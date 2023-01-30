@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+
+void Timer0_init()
+{
+
+}
+
+
+int main() {
+	DDRA&=~(1<<PA0)&~(1<<PA1)&~(1<<PA2);
+		while (1) {
+
+		}
+	}
+

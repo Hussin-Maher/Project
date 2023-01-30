@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int num1=5,num2=6;
+	int *ptr1=&num1;
+	int *ptr2=&num2;
+	printf("%d %d",num1,num2);
+	*ptr1=*ptr1^(*ptr2);
+	*ptr2=*ptr1^(*ptr2);
+	*ptr1=*ptr1^(*ptr2);
+	printf("%d %d",num1,num2);
+	return 0;
+}
+

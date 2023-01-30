@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int IsPowerOfThree(unsigned int Number)
+{
+	if((Number == 1) || (Number == 0))
+	{
+		return 1;
+	}
+	else
+	{
+		while(1)
+		{
+			/* Check if the number can be divided by 3 */
+			if((Number % 3) == 0)
+			{
+			    /* Divide the number by 3 every time in case the number is power three
+			    after multiple division it will be equals to 3 then return 0 as the
+			    number is power 3 */
+				if(Number == 3)
+				{
+					return 0;
+				}
+				Number = Number / 3;
+			}
+			else
+			{
+				return 1;
+			}
+		}
+	}
+}
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	short x=0;
+	x=IsPowerOfThree(64);
+	printf("%d",x);
+	return 0;
+}
+

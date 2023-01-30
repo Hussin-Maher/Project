@@ -1,0 +1,47 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void reverse(char *arr)
+{
+	int size=0,i=0,j=0;
+	while(arr[size]!='\0')
+	{
+		size++;
+	}
+	size--;
+	char temp[size+1];
+	while(arr[size]!=0||temp[i]!='\0')
+	{
+		temp[i]=arr[size];
+		size--;
+		i++;
+	}
+	while(arr[j]!='\0')
+	{
+		arr[j]=temp[j];
+		j++;
+	}
+}
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	char arr[]="hussin maher";
+	reverse(arr);
+	int i=0;
+	while(arr[i]!='\0')
+	{
+		printf("%c",arr[i]);
+		i++;
+	}
+	return 0;
+}
+

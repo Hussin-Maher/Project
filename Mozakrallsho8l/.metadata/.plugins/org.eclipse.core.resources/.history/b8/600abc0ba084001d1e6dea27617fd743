@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
+ISR(INT0_vect) {
+	PORTC=PORTC^(1<<0);
+}
+int main() {
+	SREG |= (1 << 7);
+	DDRC |= ~(1 << 0);
+	GICR |= (1 << INT0);
+	MCUCR |= (1 << ISC00) | (1 << ISC01);
+	PORTC |= (1 << 0);
+	DDRD &= ~(1 << 2);
+
+	while (1) {
+
+	}
+}

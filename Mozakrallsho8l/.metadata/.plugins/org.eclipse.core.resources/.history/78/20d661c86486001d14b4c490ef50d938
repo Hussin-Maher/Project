@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+
+void Timer0_init() {
+	TCNT0 = 0;
+	TCCR0 |= (1 << WGM00) | (1 << COM01) | (1 << COM00) | (1 << CS01);
+	DDRB |= (1 << PB3);
+}
+void Duty_cycle(int duty_cycle) {
+OCR0=duty_cycle;
+}
+int main() {
+	DDRA &= ~(1 << PA0) & ~(1 << PA1) & ~(1 << PA2);
+	DDRC |= (1 << PC0) | (1 << PC1);
+	PORTC &= 0b11111100;
+	while (1) {
+		if (PINA & (1 << PA0)) {
+			Duty_cycle(64);
+		} else if (PINA & (1 << PA1)) {
+			Duty_cycle(128);
+		} else if (PINA & (1 << PA2)) {
+			Duty_cycle(255);
+		}
+	}
+}
+

@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void reversing(int *arr,int size)
+{
+	int i=0,min=arr[0];
+	for(i=0;i<size-1;i++)
+	{
+		if (arr[i] > arr[i + 1]) {
+			min=arr[i+1];
+		}
+	}
+	printf("%d",min);
+}
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int arr[3]={9,2.3};
+	reversing(arr, 3);
+	return 0;
+}
+

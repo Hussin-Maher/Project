@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int n=5;
+	int i,j,l,count=1;
+	for (i = 1; i <= n; i++) {
+		for (j = i; j <= n - 1; j++) {
+			printf(" ");
+		}
+		if(i==1)
+		{
+			printf("*");
+		}
+		else {
+			for(l=1;l<=i+count;l++)
+			{
+				printf("*");
+			}
+			count++;
+		}
+
+		printf("\n");
+	}
+	return EXIT_SUCCESS;
+}

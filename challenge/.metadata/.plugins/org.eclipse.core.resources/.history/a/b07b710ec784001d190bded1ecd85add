@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+ISR(TIMER0_OVR_vect) {
+
+}
+void Timer0_init() {
+	TCCR0|=(1<<CS02);
+}
+void main() {
+Timer0_init();
+	while (1) {
+
+	}
+}

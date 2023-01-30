@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	double x=0,result=0;
+	scanf("%d",&x);
+	result=sqrt(x);
+	if(result==x*x)
+		printf("done");
+	else
+		printf("kosmk");
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
+ISR(INT0_vect)
+{
+
+}
+int main() {
+	DDRC&= ~(1<<0);
+	PORTC|=(1<<0);
+	DDRD|=(1<<2);
+	while(1) {
+
+}
+}

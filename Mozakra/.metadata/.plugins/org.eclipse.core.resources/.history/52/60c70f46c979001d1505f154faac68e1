@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int x,y,result=0;
+	char s;
+	scanf("%d%d%c"&x,&y,&s);
+	switch('s')
+	{
+	case ('-'):
+			result=x-y;
+	break;
+	case ('+'):
+			result=x+y;
+	break;
+	}
+	printf("%d",result);
+	return EXIT_SUCCESS;
+}

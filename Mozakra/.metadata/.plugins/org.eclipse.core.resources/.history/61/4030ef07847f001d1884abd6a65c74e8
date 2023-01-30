@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int fr[10]={0};
+void frequency(char *arr,int *fr)
+{
+	int size=0,i =0,j=0,freq=0;
+	size=strlen(arr);
+	for(i=0;i<size;i++)
+	{
+		for(j=0;j<size;j++)
+		{
+			if(arr[i]==arr[j])
+			{
+				freq++;
+			}
+		}
+		fr[i]=freq;
+		freq=0;
+	}
+}
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	char str[]="husssun";
+	int i=0;
+	frequency(str, fr);
+	for(i=0;i<10;i++)
+	{
+		printf("%d",fr[i]);
+	}
+	return 0;
+}
+

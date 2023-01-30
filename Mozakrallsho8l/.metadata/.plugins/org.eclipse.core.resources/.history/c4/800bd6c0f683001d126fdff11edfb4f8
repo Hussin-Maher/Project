@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <avr/io.h>
+
+int main() {
+	DDRC&=~(1<<0);
+	DDRC&=~(1<<1);
+	PINC&= ~(1<<0);
+	PINC&= ~(1<<1);
+	DDRB|=(1<<0);
+	DDRB|=(1<<1);
+	for (;;) {
+		if(PORTB&(1<<0))
+			PINC|=(1<<0);
+		else
+			PINC&= ~(1<<0);
+		if(PORTB&(1<<1))
+			PINC|=(1<<1);
+		else
+			PINC&= ~(1<<1);
+	}
+}

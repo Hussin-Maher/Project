@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void string(char *str,char *temp)
+{
+	int size=0,i=0;
+	while(str[i]!='\0')
+	{
+		size++;
+		i++;
+	}
+	temp[0]=str[size-1];
+	temp[1]=' ';
+	temp[2]=str[size-2];
+}
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	char temp[]={0},i=0;
+	char *str="hussin";
+	string(str,temp);
+	for(i=0;i>3;i++)
+	{
+		printf("%c",temp[i]);
+	}
+	return 0;
+}
+

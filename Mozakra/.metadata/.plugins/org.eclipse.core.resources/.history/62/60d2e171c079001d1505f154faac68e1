@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	float temp,f=0.0;
+	printf("enter temp in celicous\n");
+	scanf("%f",&temp);
+	f=(temp*(9/5))+32;
+	printf("%f",f);
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,39 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void interval(int,int);
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int x=20;
+	float y=0;
+	y=sqrtf(x);
+	printf("%f",y);
+	return 0;
+}
+void interval(int x,int y)
+{
+	int i=0,j=0,flag=0;
+	for(i=x+1;i<y;i++)
+	{
+		for(j=i;j>2;j--)
+		{
+			if((i%(j-1))==0)
+			{
+				flag=1;
+			}
+		}
+		if(flag==0)
+			printf("%d ",i);
+		flag=0;
+	}
+}

@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : Examoles.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int numbers_size =10;
+int summation(int numbers_size, int* numbers)
+{
+	int i=0,sum=0;
+	while(i!=numbers_size)
+	{
+		sum+=numbers[i];
+		i++;
+	}
+	return sum;
+}
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int sum=0;
+	int arr[10]={1,2,3,1,2,3,1,2,3,1};
+	sum=summation(numbers_size, arr);
+	printf("%d",sum);
+	return 0;
+}
+
